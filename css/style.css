@@ -1,0 +1,25 @@
+body{
+    margin: 0px;
+    background: #fff;
+}
+
+.section-quadrado{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    /*align-items: center;*/
+    /*align-items: flex-end;*/
+    gap: 0px;
+
+    flex-wrap: wrap-reverse;
+}
+
+.quadrado{
+    width: 80px;
+    height: 80px;
+    background: rgb(37, 117, 237);
+    margin: 2px;
+}
